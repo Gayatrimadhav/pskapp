@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Signup = () => {
     const [credential,setCredential]=useState({name:"",email:"",password:""});
     var nevigate=useNavigate();
-    const host="http://localhost:4009";
+    const host="http://43.205.140.171:4009";
 
     const clickhere = async (e) => {
         e.preventDefault();
