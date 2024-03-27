@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');//import
-const mongoURI="mongodb://localhost:27017/ebookdata"
+const mongoURI="mongodb://43.205.140.171:27017/ebookdata"
 const connectToMongo=async()=>{
     try{
         mongoose.set('strictQuery',false)
